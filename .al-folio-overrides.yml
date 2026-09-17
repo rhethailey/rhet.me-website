@@ -1,0 +1,94 @@
+---
+version: 1
+overrides:
+  _sass/_blog.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_blog.scss
+    upstream_sha256: 9981a7ce49cb02f7cca1b3d147097e7170524d917a9d3f273927f129262ec3a1
+    local_sha256: 9981a7ce49cb02f7cca1b3d147097e7170524d917a9d3f273927f129262ec3a1
+    acknowledged_at: '2026-09-16'
+  _sass/_components.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_components.scss
+    upstream_sha256: '088665537c10a0f1b996891a3a24de9e8052e0a6b01efef637288781dce8d453'
+    local_sha256: '088665537c10a0f1b996891a3a24de9e8052e0a6b01efef637288781dce8d453'
+    acknowledged_at: '2026-09-16'
+  _sass/_footer.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_footer.scss
+    upstream_sha256: 4deed90ecd397f9c2e69468172020c6a0ab2c793fd7a3c957fbf44d47e7f537a
+    local_sha256: 4deed90ecd397f9c2e69468172020c6a0ab2c793fd7a3c957fbf44d47e7f537a
+    acknowledged_at: '2026-09-16'
+  _sass/_layout.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_layout.scss
+    upstream_sha256: 8b81d6e84d68fdcff1a2a12a8b33f963c69d9ac8db382c4d2dfaa7f37f0b0c44
+    local_sha256: 8b81d6e84d68fdcff1a2a12a8b33f963c69d9ac8db382c4d2dfaa7f37f0b0c44
+    acknowledged_at: '2026-09-16'
+  _sass/_navbar.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_navbar.scss
+    upstream_sha256: fa546433c752f6df0ce69ba686d699e1967c671435440f1c96337889e9937f62
+    local_sha256: fa546433c752f6df0ce69ba686d699e1967c671435440f1c96337889e9937f62
+    acknowledged_at: '2026-09-16'
+  _sass/_publications.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_publications.scss
+    upstream_sha256: 9428fe340164ef3eb417b31e9858194ada02a4e5afe35da1cd980545bf2452df
+    local_sha256: 9428fe340164ef3eb417b31e9858194ada02a4e5afe35da1cd980545bf2452df
+    acknowledged_at: '2026-09-16'
+  _sass/_tabs.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_tabs.scss
+    upstream_sha256: 7789d11ed869ded339e0232f2befbad0b154424332de99c00ccad56359380bbf
+    local_sha256: 7789d11ed869ded339e0232f2befbad0b154424332de99c00ccad56359380bbf
+    acknowledged_at: '2026-09-16'
+  _sass/_teachings.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_teachings.scss
+    upstream_sha256: 0f79ee5dc6001cbaa1955a9b727d26243a3df736a8e6a9f3adf2ec52e332d66f
+    local_sha256: 0f79ee5dc6001cbaa1955a9b727d26243a3df736a8e6a9f3adf2ec52e332d66f
+    acknowledged_at: '2026-09-16'
+  _sass/_themes.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_themes.scss
+    upstream_sha256: b581e43dcfbf21c14f388e2b585474c886fad62f6b5a0444f7832e7f69745f1f
+    local_sha256: b581e43dcfbf21c14f388e2b585474c886fad62f6b5a0444f7832e7f69745f1f
+    acknowledged_at: '2026-09-16'
+  _sass/_typograms.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_typograms.scss
+    upstream_sha256: 21be83ccf8ac9c18d2fb5dddf82bad4c1e94fcfbc8c45ef9f406a7db2a414afa
+    local_sha256: 21be83ccf8ac9c18d2fb5dddf82bad4c1e94fcfbc8c45ef9f406a7db2a414afa
+    acknowledged_at: '2026-09-16'
+  _sass/_typography.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_typography.scss
+    upstream_sha256: 60a42f389e7b7f4166a5e10d326458a7d896a8a94d1b2f27f50cd5f1f5131cc5
+    local_sha256: 60a42f389e7b7f4166a5e10d326458a7d896a8a94d1b2f27f50cd5f1f5131cc5
+    acknowledged_at: '2026-09-16'
+  _sass/_utilities.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_utilities.scss
+    upstream_sha256: 11890ace3e805d2c4ef946401cf80edb39983e8780cd9282fdd73428abc5db26
+    local_sha256: 11890ace3e805d2c4ef946401cf80edb39983e8780cd9282fdd73428abc5db26
+    acknowledged_at: '2026-09-16'
+  _sass/_variables.scss:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _sass/_variables.scss
+    upstream_sha256: 8a6b3e6a2dfcda6c7973dc7b19872f02d66d6c78bac677fc2dff0e272b3ebc84
+    local_sha256: 8a6b3e6a2dfcda6c7973dc7b19872f02d66d6c78bac677fc2dff0e272b3ebc84
+    acknowledged_at: '2026-09-16'

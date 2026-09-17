@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: My Website # the website title (if blank, full name will be used instead)
+title: Rhet O. Hailey # the website title (if blank, full name will be used instead)
 first_name: Rhet
 middle_name: O.
 last_name: Hailey
@@ -16,7 +16,8 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+# icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: robot_arm.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: rhet.me # the base hostname & protocol for your site
@@ -546,7 +547,8 @@ third_party_libraries:
     version: "5.5.0"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      # fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+      fonts: "https://fonts.googleapis.com/css?family=Lato:300,400,500,700|Lato:100,300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
