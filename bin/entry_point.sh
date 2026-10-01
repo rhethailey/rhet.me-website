@@ -35,16 +35,21 @@ start_jekyll() {
     ensure_bundle_deps
     mkdir -p "$DOCKER_DESTINATION"
     bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace --force_polling --destination "$DOCKER_DESTINATION" --config "$CONFIG_FILE" &
+    JEKYLL_PID=$!
 }
 
 start_jekyll
 
 while true; do
-    inotifywait -q -e modify,move,create,delete $CONFIG_FILE
-    if [ $? -eq 0 ]; then
+    # Watch the directory, not the file: editors (and sed -i) that save by replacing
+    # _config.yml made a file watch exit non-zero, which `set -e` turned into a container exit.
+    changed=$(inotifywait -q -e close_write,moved_to,create --format '%f' .) || { sleep 1; continue; }
+    if [ "$changed" = "$CONFIG_FILE" ]; then
         echo "Change detected to $CONFIG_FILE, restarting Jekyll"
-        jekyll_pid=$(pgrep -f jekyll)
-        kill -KILL $jekyll_pid
+        # Kill only the server started above; `pgrep -f jekyll` also matched this
+        # script (/srv/jekyll/bin/...) and killed the whole container.
+        kill -KILL "$JEKYLL_PID" 2>/dev/null || true
+        wait "$JEKYLL_PID" 2>/dev/null || true
         start_jekyll
     fi
 done
