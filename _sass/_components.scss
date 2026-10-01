@@ -282,3 +282,111 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// Local addition: stacked icon + label links under the about-page photo (profile.more_info in _pages/about.md).
+.profile .more-info .profile-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+
+  i {
+    width: 1.3em;
+    text-align: center;
+    color: var(--global-theme-color);
+  }
+}
+
+// Local addition: the profile photo sits flat on the page, no drop shadow.
+.profile img {
+  box-shadow: none !important;
+  border-radius: 4px;
+}
+
+/*******************************************************************************
+ * Local addition: research blocks (_pages/research.md).
+ * A few large blocks, separated by whitespace rather than cards or borders.
+ * With a figure: figure and text side by side, alternating sides.
+ * Without one: text only, at a comfortable reading width.
+ ******************************************************************************/
+
+.research-block {
+  margin: 0 0 5rem;
+
+  &:has(.research-figure) {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    gap: 2.5rem;
+    align-items: center;
+
+    &:nth-of-type(even) {
+      grid-template-columns: 5fr 7fr;
+
+      .research-figure {
+        order: 2;
+      }
+    }
+  }
+
+  .research-figure {
+    margin: 0;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    figcaption {
+      margin-top: 0.6rem;
+      color: var(--global-text-color-light);
+      font-size: 0.85rem;
+    }
+  }
+
+  .research-eyebrow {
+    margin-bottom: 0.6rem;
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .research-text {
+    max-width: 40rem;
+  }
+
+  h2 {
+    margin-top: 0 !important;
+  }
+
+  @media (max-width: 767.98px) {
+    &:has(.research-figure),
+    &:has(.research-figure):nth-of-type(even) {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+
+      .research-figure {
+        order: 0;
+      }
+    }
+  }
+}
+
+// When the photo stacks above the bio on small screens, give it room before the text.
+@media (max-width: 575.98px) {
+  .profile {
+    margin-bottom: 2rem;
+  }
+}

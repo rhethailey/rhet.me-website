@@ -139,3 +139,70 @@ blockquote {
     }
   }
 }
+
+/*******************************************************************************
+ * Local addition: editorial type scale for page content.
+ * Page titles stay quiet; section headings (h2) carry the hierarchy.
+ ******************************************************************************/
+
+.post {
+  .post-header {
+    margin-bottom: 2.75rem;
+  }
+
+  .post-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+  }
+
+  .post-description {
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+  }
+
+  article {
+    p,
+    li {
+      line-height: 1.7;
+    }
+
+    h2 {
+      margin-top: 3.5rem;
+      margin-bottom: 1.25rem;
+      font-size: 1.85rem;
+      font-weight: 300;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      margin-top: 2.25rem;
+      margin-bottom: 0.75rem;
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  }
+}
+
+// About page: the opening paragraph reads as a lede.
+.about-body > p:first-of-type {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+// Links inside running text: a quiet underline so dark accent colors (maroon)
+// still read as links, plus a lighter hover.
+.post article {
+  p a,
+  li a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+    text-decoration-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent);
+
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration-color: currentColor;
+    }
+  }
+}

@@ -33,3 +33,23 @@ footer.sticky-bottom {
     text-align: center;
   }
 }
+
+// Local addition: on short pages, keep the footer at the bottom of the window
+// instead of right under the content. The main column grows to fill the spare
+// height (the footer's own margin can't be used: its Tailwind `mt-5` is
+// layered `!important`, which beats any unlayered rule).
+body.sticky-bottom-footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  > * {
+    flex-shrink: 0;
+  }
+
+  // Flex items with auto side margins shrink to their content; keep the centered column full width.
+  > [role="main"] {
+    flex-grow: 1;
+    width: 100%;
+  }
+}
