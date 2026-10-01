@@ -10,7 +10,7 @@ affiliation: Postdoctoral Researcher at Purdue University # shown under your nam
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Rhet O. Hailey is a robotics researcher at Purdue University building robots that work safely alongside people, from soft growing vine robots to wearable assistive devices.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
