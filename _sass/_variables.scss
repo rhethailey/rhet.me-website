@@ -8,10 +8,12 @@
 // Colors
 $auburn-blue-color: #0b2341 !default;
 $auburn-orange-color: #e86100 !default;
+$auburn-peach-color: #f8d0b2 !default;
 $msu-maroon-color: #5d1725 !default;
 $msu-lightgrey-color: #C1C6C8 !default;
 $msu-darkgrey-color: #777777 !default;
 $msu-khaki-color: #A69F88 !default;
+$msu-khaki-light-color: color.mix($msu-khaki-color, #ffffff, 50%) !default;
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;

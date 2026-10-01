@@ -6,18 +6,18 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{v.$white-color};
+  --global-bg-color: #{v.$msu-khaki-light-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-text-color: #{v.$auburn-blue-color};
+  --global-text-color-light: #{color.mix(v.$auburn-blue-color, v.$msu-khaki-light-color, 70%)};
+  --global-theme-color: #{v.$msu-maroon-color};
+  --global-hover-color: #{color.adjust(v.$msu-maroon-color, $lightness: 12%)};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
   --global-footer-link-color: #{v.$white-color};
   --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-divider-color: rgba(11, 35, 65, 0.15); // Auburn navy, faint
   --global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
@@ -80,7 +80,7 @@ html[data-theme="dark"] {
   --global-bg-color: #{v.$auburn-blue-color};
   --global-altbg-color: #{v.$msu-maroon-color};
   --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
+  --global-text-color: #{v.$msu-khaki-light-color};
   --global-text-color-light: #{v.$grey-color};
   --global-theme-color: #{v.$cyan-color};
   --global-hover-color: #{v.$cyan-color};
