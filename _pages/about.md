@@ -32,16 +32,16 @@ latest_posts:
 ---
 
 <!-- I build robots that work with people, not just around them.  -->
-I develop robots to work with people, not just around them. My research spans the design, control, and real-world deployment of robotic systems, from soft, growing vine robots that navigate spaces no human can reach to wearable devices that restore function to the body. My goal is to make robots trustworthy partners that expand what people can do.
+<!-- I develop robots to work with people, not just around them. My research spans the design, control, and real-world deployment of robotic systems, from soft, growing vine robots that navigate spaces no human can reach to wearable devices that restore function to the body. My goal is to make robots trustworthy partners that expand what people can do. -->
 <!-- I am a robotics researcher with 6+ years of experience designing, building, and controlling robots that must operate safely in close physical contact with people and constrained environments -->
 
-Currently, I am a Postdoctoral Research Assistant in the <a href="https://purdueraadlab.wixsite.com/website-1">Robust And Adaptive Design (RAAD) Lab</a> in the Mechanical Engineering Department at Purdue University faciliating motion planning and control for growing vine robots. 
+<!-- Currently, I am a Postdoctoral Research Assistant in the <a href="https://purdueraadlab.wixsite.com/website-1">Robust And Adaptive Design (RAAD) Lab</a> in the Mechanical Engineering Department at Purdue University faciliating motion planning and control for growing vine robots.  -->
 
-Previously, I completed my Ph.D. at Auburn University guided by Dr. Chad Rose in the <a href="https://ecm.eng.auburn.edu/wp/webr/">Wearable and Bio-Robotics (WeBR) Lab</a>. 
+<!-- Previously, I completed my Ph.D. at Auburn University guided by Dr. Chad Rose in the <a href="https://ecm.eng.auburn.edu/wp/webr/">Wearable and Bio-Robotics (WeBR) Lab</a>.  -->
 
-<!-- My research interests broadly include the design, implementation and control of a broad range of robotic systems for the betterment of improved human robot interaction. -->
 
-<!-- Previously, I was a postdoctoral research associate and lab manager for the Kavraki Lab at Rice University under the direction of Dr. Lydia Kavraki. During my Ph.D., I was funded by a NASA Space Technology Research Fellowship and worked with the Robonaut 2 team at NASA JSC.  -->
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
+I build robots that work with people, not just around them. My research covers the design, control, and real-world deployment of robots that physically interact with people and their surroundings, from soft, growing vine robots that reach places no person can to wearable devices that help restore movement and sensation. Across all of it, my goal is the same: robots that people can trust as partners, and that expand what they can do.
 
-<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+Currently, I am a Postdoctoral Research Assistant in the <a href="https://purdueraadlab.wixsite.com/website-1">Robust And Adaptive Design (RAAD) Lab</a> Lab in Purdue University's School of Mechanical Engineering, working with Dr. Laura Blumenschein. I lead motion planning and control for growing vine robots used in non-destructive inspection, and I mentor graduate students in the lab.
+
+I earned my Ph.D. in Mechanical Engineering at Auburn University under Dr. Chad Rose in the <a href="https://ecm.eng.auburn.edu/wp/webr/">Wearable and Bio-Robotics (WeBR) Lab</a>. My dissertation, Evaluating Active Assessment and Learning Control for Robotic Rehabilitation, developed adaptive neural-network controllers with formal stability guarantees for the 14-DoF Harmony upper-limb exoskeleton and for hybrid FES/motor rehabilitation, and tested them in human-subject studies. My work in rehabilitation robotics has appeared in ASME Letters in Dynamic Systems and Control and at IEEE ICORR and BioRob, and I am a co-inventor on a patented system for treating peripheral neuropathy.
