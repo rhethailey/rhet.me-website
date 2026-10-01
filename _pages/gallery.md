@@ -4,7 +4,7 @@ permalink: /gallery/
 title: gallery
 description:
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <!-- Drop .jpg/.jpeg/.png/.webp files into assets/img/gallery/ and they appear here automatically, sorted by filename. -->

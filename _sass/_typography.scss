@@ -4,6 +4,18 @@
 
 @use "variables" as v;
 
+// Cooper Hewitt (SIL OFL), self-hosted in assets/fonts/cooper-hewitt/.
+// Relative to the compiled assets/css/main.css, so it follows the baseurl.
+@each $weight in 300, 400, 600, 700 {
+  @font-face {
+    font-family: "Cooper Hewitt";
+    font-style: normal;
+    font-weight: $weight;
+    font-display: swap;
+    src: url("../fonts/cooper-hewitt/cooper-hewitt-latin-#{$weight}-normal.woff2") format("woff2");
+  }
+}
+
 body {
   font-family: "Lato", sans-serif !important;
 }

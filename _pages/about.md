@@ -40,7 +40,7 @@ latest_posts:
 <!-- Previously, I completed my Ph.D. at Auburn University guided by Dr. Chad Rose in the <a href="https://ecm.eng.auburn.edu/wp/webr/">Wearable and Bio-Robotics (WeBR) Lab</a>.  -->
 
 
-I build robots that work with people, not just around them. My research covers the design, control, and real-world deployment of robots that physically interact with people and their surroundings, from soft, growing vine robots that reach places no person can to wearable devices that help restore movement and sensation. Across all of it, my goal is the same: robots that people can trust as partners, and that expand what they can do.
+I build robots that work with people, not just around them. My research covers the design, control, and real-world deployment of robots that physically interact with people and their surroundings, from soft, growing vine robots that reach places no person can to wearable devices that help restore movement and sensation. Across all of it, my goal is the same: robots that people trust, and that expand what they can do.
 
 Currently, I am a Postdoctoral Research Assistant in the <a href="https://purdueraadlab.wixsite.com/website-1">Robust And Adaptive Design (RAAD) Lab</a> Lab in Purdue University's School of Mechanical Engineering, working with Dr. Laura Blumenschein. I lead motion planning and control for growing vine robots used in non-destructive inspection, and I mentor graduate students in the lab.
 
