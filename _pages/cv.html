@@ -1,0 +1,26 @@
+---
+layout: null
+permalink: /cv/
+title: CV
+nav: true
+nav_order: 2
+cv_pdf: /assets/pdf/RhetHaileyCV_Oct26.pdf
+---
+
+{%- assign pdf = page.cv_pdf | relative_url -%}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <meta http-equiv="refresh" content="0; url={{ pdf }}">
+    <link rel="canonical" href="{{ pdf }}">
+    <script>
+      location.replace("{{ pdf }}");
+    </script>
+  </head>
+  <body>
+    <a href="{{ pdf }}">Open CV (PDF)</a>
+  </body>
+</html>
